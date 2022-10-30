@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --cor-principal: rgb(0, 0, 0);
+    --cor-primaria: white;
+    --cor-hover:rgb(70, 70, 70);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow:visible;
+    font-family: 'Yeseva One';
+    color: var(--cor-primaria);
+    background: linear-gradient(95deg, #272727 16.62%,  rgb(81, 19, 114) 85.61%, rgb(108, 25, 126));
+}
+.voltarcomp{
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+}
+.voltarcomp a button{
+    transition: 0.5s;
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+}
+.voltarcomp a button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+header{
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+section:hover div{
+    transition: .4s;
+    border-radius: 20px;
+    padding: 0;
+}
+section:hover div p{
+    transition: .4s;
+    font-size: 22px;
+}
+section:hover div h2{
+    transition: .4s;
+    font-size: 50px;
+}
+main{
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+section{
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+section div{
+    padding: 10px;
+    transition: .4s;
+    border: .4px solid var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+h2{
+    font-size: 60px;
+    transition: .4s;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    transition: .4s;
+    max-width: 90%;
+    padding: 10px;
+}
+img{
+    transition: .4s;
+    padding: 10px;
+    border-radius: 100px;
+    max-height: 300px;
+}
+a{
+    transition: .4s;
+    color: rgb(121, 23, 212);
+}
+a:hover{
+    transition: .4s;
+    font-size: 90%;
+}
+.imgpet div{
+    border: none;
+}

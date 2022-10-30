@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --cor-principal: rgb(0, 0, 0);
+    --cor-primaria: white;
+    --cor-hover:rgb(70, 70, 70);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow:visible;
+    font-family: 'Yeseva One';
+    color: var(--cor-primaria);
+    background: linear-gradient(95deg, #272727 16.62%,  rgb(81, 19, 114) 85.61%, rgb(108, 25, 126));
+}
+.voltarcomp{
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+}
+.voltarcomp a button{
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.voltarcomp a button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+.diodos{
+    transition: .5s;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.diodos:hover .diodos-secao{
+    padding: 15px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.diodos:hover .diodos-secao-div{
+    padding: 15px;
+    transition: .5s;
+}
+.diodos:hover .diodos-secao-div h2{
+    font-size: 50px;
+    transition: .5s;
+}
+.diodos:hover .diodos-secao-div p{
+    font-size: 22px;
+    transition: .5s;
+}
+.diodos-secao{
+    transition: .5s;
+    border: .4px solid var(--cor-primaria);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.diodos-secao-div{
+    transition: .5s;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.diodos-secao-div h2{
+    transition: .5s;
+    padding-bottom: 10px;
+}
+h2{
+    transition: .5s;
+    font-size: 60px;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 9px;
+    transition: .5s;
+    max-width: 90%;
+    font-size: 20px;
+}
+.secao-img{
+    transition: .5s;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.principal{
+    padding: 20px;
+    transition: .5s;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.secaoP:hover{
+    padding: 5px 5px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.secaoP:hover h2{
+    transition: .5s;
+    font-size: 70px;
+}
+.secaoP:hover p{
+    transition: .5s;
+    font-size: 24px;
+}
+.secaoP{
+    transition: .5s;
+    border: .4px solid var(--cor-primaria);
+    display: flex;
+    padding: 15px;
+    max-width: 45%;
+    max-height: 90%;
+}
+.secaoP div{
+    transition: .5s;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.secaoP div p a{
+    transition: 0.4s;
+    color: rgb(188, 129, 243);
+}
+.secaoP div p a:hover{
+    transition: 0.4s;
+    font-size: 21px;
+}

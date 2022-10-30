@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --cor-principal: rgb(0, 0, 0);
+    --cor-primaria: white;
+    --cor-hover:rgb(70, 70, 70);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow:visible;
+    font-family: 'Yeseva One';
+    color: var(--cor-primaria);
+    background: linear-gradient(95deg, #272727 16.62%,  rgb(81, 19, 114) 85.61%, rgb(108, 25, 126));
+}
+.voltarcomp{
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+}
+.voltarcomp a button{
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.voltarcomp a button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+main{
+    padding: 20px;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 220px;
+}
+section{
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    border: 0.4px solid var(--cor-primaria);
+    padding: 20px;
+}
+h2{
+    transition: 0.5s;
+    font-size: 60px;
+    font-weight: 1000;
+}
+p{
+    transition: 0.5s;
+    padding-top: 30px;
+    font-size: 20px;
+}
+section img{
+    transition: 0.5s;
+    padding-top: 30px;
+    height: 400px;
+}
+section:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+section:hover img{
+    height: 500px;
+    transition: 0.5s;
+}
+section:hover h2{
+    font-size: 70px;
+    transition: 0.5s;
+}
+section:hover p{
+    font-size: 30px;
+    transition: 0.5s;
+}
+section p{
+    max-width: 400px;
+}
+section div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.VG{
+    padding-top: 50px;
+    padding-bottom: 50px ;
+    padding-left: 40px ;
+    padding-right: 40px;
+}
+.VG-section-div p{
+    font-size: 40px;
+    transition: 0.5s;
+    padding-top: 30px;
+    font-size: 20px;
+    max-width: 90%;
+}
+.VG-section-div h2{
+    max-width: 90%;
+    font-size: 90px;
+}

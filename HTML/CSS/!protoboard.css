@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --cor-principal: rgb(0, 0, 0);
+    --cor-primaria: white;
+    --cor-hover:rgb(70, 70, 70);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow:visible;
+    font-family: 'Yeseva One';
+    color: var(--cor-primaria);
+    background: linear-gradient(95deg, #272727 16.62%,  rgb(81, 19, 114) 85.61%, rgb(108, 25, 126));
+}
+.voltarcomp{
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+}
+.voltarcomp a button{
+    transition: 0.5s;
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+}
+.voltarcomp a button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+p{
+    transition: 0.5s;
+    max-width: 1400px;
+    padding: 10px;
+    font-size: 20px;
+}
+h2{
+    transition: 0.5s;
+    font-size: 60px;
+}
+h3{
+    transition: .5s;
+    font-size: 30px;
+    padding: 10px;
+}
+header{
+    transition: 0.5s;
+    padding: 10px;
+}
+main{
+    transition: 0.5s;
+    padding: 10px;
+}
+section{
+    transition: 0.5s;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+img{
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+section div{
+    transition: 0.5s;
+    padding: 20px;
+    border: .4px solid var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    gap: 30px;
+}
+div:hover{
+    border-radius: 20px;
+}
+div:hover h2{
+    font-size: 50px;
+}
+div:hover h3{
+    font-size: 40px;
+}
+div:hover p{
+    font-size: 22px;
+}

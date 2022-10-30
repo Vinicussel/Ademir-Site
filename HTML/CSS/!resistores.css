@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+:root{
+    --cor-principal: rgb(0, 0, 0);
+    --cor-primaria: white;
+    --cor-hover:rgb(70, 70, 70);;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow:visible;
+    font-family: 'Yeseva One';
+    color: var(--cor-primaria);
+    background: linear-gradient(95deg, #272727 16.62%,  rgb(81, 19, 114) 85.61%, rgb(108, 25, 126));
+}
+.voltarcomp{
+    border: none;
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+}
+.voltarcomp a button{
+    transition: 0.5s;
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+}
+.voltarcomp a button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+header{
+    padding: 20px;
+}
+.resistores{
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.resistores div{
+    transition: .4s;
+    padding: 10px;
+    max-width: 90%;
+    border: .4px solid var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.resistores div p{
+    transition: .4s;
+    max-width: 90%;
+}
+.resistores:hover{
+    transition: .4s;
+    padding: 15px;
+}
+.resistores:hover div{
+    transition: .4s;
+    border-radius: 20px;
+}
+.resistores:hover div h2{
+    transition: .4s;
+    font-size: 50px;
+}
+.resistores:hover div p{
+    transition: .4s;
+    font-size: 25px;
+}
+p{
+    transition: .4s;
+    max-width: 800px;
+    padding: 10px;
+    font-size: 20px;
+}
+h2{
+    transition: .4s;
+    padding: 10px;
+    font-size: 60px;
+}
+h3{
+    transition: .4s;
+    max-width: 500px;
+    font-size: 40px;
+    padding: 10px;
+}
+h4{
+    transition: .4s;
+    max-width: 800px;
+    font-size: 25px;
+    padding: 10px;
+}
+main{
+    transition: .4s;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+main section{
+    transition: .4s;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+main section div{
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    gap: 30px;
+    border: .4px solid var(--cor-primaria);
+}
+main section:hover{
+    padding: 15px;
+    transition: .4s;
+}
+main section:hover div{
+    transition: .4s;
+    border-radius: 20px;
+
+}
+main section:hover div h2{
+    transition: .4s;
+    font-size: 70px;
+}
+main section:hover div p{
+    transition: .4s;
+    font-size: 25px;
+}
+main section:hover div h3{
+    transition: .4s;
+    font-size: 50px;
+}
+main sectio:hover div h4{
+    transition: .4s;
+    font-size: 30px;
+}
+a{
+    transition: .4s;
+}
+a:hover{
+    transition: .4s;
+    font-size: 22px;
+}
