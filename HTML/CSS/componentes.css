@@ -105,7 +105,7 @@ body{
     align-items: center;
 }
 .div-div p{
-    transition: 0.9s;
+    transition: 0.5s;
 }
 .div-div a{
     display: flex;
@@ -114,17 +114,17 @@ body{
     color: var(--cor-primaria);
 }
 .div-div img{
-    transition: 0.9s;
+    transition: 0.5s;
 }
 .div-div:hover p{
     font-size: 20px;
-    transition: 0.9s;
+    transition: 0.5s;
     border: 0.4px solid var(--cor-primaria);
     border-radius: 10px;
 }
 .div-div:hover img{
-    transition: 0.9s;
-    height: 500px;
+    transition: 0.5s;
+    height: 350px;
     width: auto;
 }
 .escrita{

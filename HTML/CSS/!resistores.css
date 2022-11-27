@@ -165,3 +165,31 @@ a:hover{
     transition: .4s;
     font-size: 22px;
 }
+input{
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 4px rgb(105, 105, 105);
+}
+button{
+    transition: 0.5s;
+    font-family: 'Yeseva One';
+    width: 180px;
+    height: 60px;
+    border: .4px solid var(--cor-primaria);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-primaria);
+    font-size: 20px;
+}
+button:hover{
+    font-size: 22px;
+    height: 70px;
+    width: 190px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px var(--cor-primaria);
+    transition: 0.5s;
+}
+a{
+    color: blueviolet;
+}

@@ -60,25 +60,40 @@
                         Os resistores tem em suas capsulas alguns elos coloridos, que indicam o valor, em Ohms, de sua resistência, elas são:
                     </p>
                     <h3>
-                        Branco = 9; 
-                        cinza = 8;
-                        violeta = 7; 
-                        azul = 6; 
-                        verde = 5; 
-                        amarelo = 4; 
-                        laranja = 3; 
-                        vermelho = 2; 
-                        marrom = 1 / 1%; 
-                        preto = 0;
-                        prata = 10%;
+                        Branco = 9; <br>
+                        cinza = 8; <br>
+                        violeta = 7; <br>
+                        azul = 6; <br>
+                        verde = 5; <br>
+                        amarelo = 4; <br>
+                        laranja = 3; <br>
+                        vermelho = 2; <br>
+                        marrom = 1 / 1%; <br>
+                        preto = 0; <br>
+                        prata = 10%; <br>
                         ouro = 5%
                     </h3>
                     <h4>cor 1 (dezena) e cor 2 (unidade) x 10^(cor 3) e tolerância em porcentagem (cor 4)</h4>
                 </center>
+                <label for="number1">primeiro número <input type="text" id="1"></label>
+                <label for="number2">segundo número <input type="text" id="2"></label>
+                <label for="number3">terceiro número <input type="text" id="3"></label>
+                <button onclick="clicar()">criar resistor</button>
                 <img src="IMGs/shuinji-color.gif">
             </div>
         </section>
     </main>
     <div class="voltarcomp"><a href="componentes.html" ><button>componentes</button></a></div>
 </body>
+<script>
+    cor1 = document.getElementById("1").value;
+    cor2 = document.getElementById("2").value;
+    cor3 = document.getElementById("3").value;
+
+    function clicar(){
+        conta = (parseInt(cor1)*10 + parseInt(cor2)) * 10**parseInt(cor3)
+        window.alert(conta)
+    }
+
+</script>
 </html>
