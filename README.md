@@ -1,6 +1,7 @@
 # Ademir-Site
-A HTML/CSS based pages for a academic website that describe eletronic components
 
-I focused on the page not braking, so the display on CSS is all "flex" (display: flex;).
+HTML/CSS based pages for an academic website describing electronic components
 
-I don't used JS on the project
+I put my focus on not breaking the page, so the CSS display is all "flex" (display: flex;)
+
+js was not needed
